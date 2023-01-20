@@ -3,6 +3,7 @@ import { Container, Links } from './styles';
 import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
 import { Section } from '../../components/Section';
+import { Tag } from '../../components/Tag';
 
 
 
@@ -17,6 +18,11 @@ export function Details() {
           <li><a href="#">www.felipedev123.com</a></li>
           <li><a href="#">www.felipedev123.com</a></li>
         </Links>
+      </Section>
+
+      <Section title="Marcadores">
+        <Tag title="express"/>
+        <Tag title="nodejs"/>
       </Section>
 
       <Button title="Voltar"/>
