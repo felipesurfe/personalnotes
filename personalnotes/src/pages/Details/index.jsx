@@ -1,4 +1,4 @@
-import { Container, Links } from './styles';
+import { Container, Links, Content } from './styles';
 
 import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
@@ -14,21 +14,42 @@ export function Details() {
     <Container>
       <Header/>
 
-      <ButtonText title="Excluir nota" />
+      <main>
+        <Content>
+         
+          <ButtonText title="Excluir nota" />
 
-      <Section title="Links úteis">
-        <Links>
-          <li><a href="#">www.felipedev123.com</a></li>
-          <li><a href="#">www.felipedev123.com</a></li>
-        </Links>
-      </Section>
+          <h1>
+            Introdução ao React
+          </h1>
 
-      <Section title="Marcadores">
-        <Tag title="express"/>
-        <Tag title="nodejs"/>
-      </Section>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Pariatur corrupti asperiores quis deserunt quia vero error consectetur itaque sint eos! 
+            Animi voluptatum blanditiis possimus voluptatem dolores ea amet pariatur iusto!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Pariatur corrupti asperiores quis deserunt quia vero error consectetur itaque sint eos! 
+            Animi voluptatum blanditiis possimus voluptatem dolores ea amet pariatur iusto!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Pariatur corrupti asperiores quis deserunt quia vero error consectetur itaque sint eos!            
+          </p>
 
-      <Button title="Voltar"/>
+          <Section title="Links úteis">
+            <Links>
+              <li><a href="#">www.felipedev123.com</a></li>
+              <li><a href="#">www.felipedev123.com</a></li>
+            </Links>
+          </Section>
+
+          <Section title="Marcadores">
+            <Tag title="express"/>
+            <Tag title="nodejs"/>
+          </Section>
+
+          <Button title="Voltar"/>
+        
+        </Content>
+      </main>
     </Container>
   );
 }
